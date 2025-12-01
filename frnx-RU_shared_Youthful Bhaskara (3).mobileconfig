@@ -1,0 +1,137 @@
+<plist version="1.0">
+  <dict>
+    <key>PayloadDisplayName</key>
+    <string>VPN Profile</string>
+    <key>PayloadIdentifier</key>
+    <string>org.fornex.vpnru02</string>
+    <key>PayloadUUID</key>
+    <string>a3b26fbc-c0f6-4114-9ab7-a2c62ef303b8</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadIdentifier</key>
+        <string>VPN Russia</string>
+        <key>PayloadUUID</key>
+        <string>6f8816ee-76ee-4cd4-9c1a-1e2c3eb07a47</string>
+        <key>PayloadType</key>
+        <string>com.apple.vpn.managed</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>UserDefinedName</key>
+        <string>VPN Russia</string>
+        <key>VPNType</key>
+        <string>IKEv2</string>
+        <key>IKEv2</key>
+        <dict>
+          <key>OnDemandEnabled</key>
+          <integer>0</integer>
+          <key>OnDemandRules</key>
+          <array>
+            <dict>
+              <key>Action</key>
+              <string>Connect</string>
+              <key>InterfaceTypeMatch</key>
+              <string>WiFi</string>
+            </dict>
+            <dict>
+              <key>Action</key>
+              <string>Connect</string>
+              <key>InterfaceTypeMatch</key>
+              <string>Cellular</string>
+            </dict>
+          </array>
+          <key>RemoteAddress</key>
+          <string>vpnru02.fornex.org</string>
+          <key>RemoteIdentifier</key>
+          <string>vpnru02.fornex.org</string>
+          <key>LocalIdentifier</key>
+          <string>dih@dih.co_69174</string>
+          <key>ServerCertificateIssuerCommonName</key>
+          <string>FornexVPN Root CA</string>
+          <key>ServerCertificateCommonName</key>
+          <string>vpnru02.fornex.org</string>
+          <key>AuthenticationMethod</key>
+          <string>Certificate</string>
+          <key>ExtendedAuthEnabled</key>
+          <integer>1</integer>
+          <key>AuthName</key>
+          <string>dih@dih.co_69174</string>
+          <key>AuthPassword</key>
+          <string>xjjij1YXcgrbZeQw</string>
+          <key>NATKeepAliveInterval</key>
+          <integer>110</integer>
+          <key>NATKeepAliveOffloadEnable</key>
+          <integer>1</integer>
+          <key>IKESecurityAssociationParameters</key>
+          <dict>
+            <key>EncryptionAlgorithm</key>
+            <string>AES-128</string>
+            <key>IntegrityAlgorithm</key>
+            <string>SHA2-256</string>
+            <key>DiffieHellmanGroup</key>
+            <integer>14</integer>
+          </dict>
+          <key>ChildSecurityAssociationParameters</key>
+          <dict>
+            <key>EncryptionAlgorithm</key>
+            <string>AES-128</string>
+            <key>IntegrityAlgorithm</key>
+            <string>SHA2-256</string>
+            <key>DiffieHellmanGroup</key>
+            <integer>14</integer>
+          </dict>
+        </dict>
+      </dict>
+      <dict>
+        <key>PayloadIdentifier</key>
+        <string>Adding CA to config</string>
+        <key>PayloadUUID</key>
+        <string>6de4b20d-a67c-41f8-850b-2d184c1fb132</string>
+        <key>PayloadType</key>
+        <string>com.apple.security.root</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadContent</key>
+        <data>
+        MIIGDjCCA/agAwIBAgIIOesNW822ZrowDQYJKoZIhvcNAQEFBQAwgaQxCzAJBgNV
+BAYTAkRFMQswCQYDVQQIEwJERTESMBAGA1UEBxMJRnJhbmtmdXJ0MRowGAYDVQQD
+ExFGb3JuZXhWUE4gUm9vdCBDQTEcMBoGA1UEChMTRm9ybmV4IEhvc3RpbmcgUy5M
+LjEXMBUGA1UECxMOVlBOIGRlcGFydG1lbnQxITAfBgkqhkiG9w0BCQEWEnN1cHBv
+cnRAZm9ybmV4LmNvbTAeFw0xNzA2MTUxMTQ3MjRaFw0yNzA2MTMxMTQ3MjRaMIGk
+MQswCQYDVQQGEwJERTELMAkGA1UECBMCREUxEjAQBgNVBAcTCUZyYW5rZnVydDEa
+MBgGA1UEAxMRRm9ybmV4VlBOIFJvb3QgQ0ExHDAaBgNVBAoTE0Zvcm5leCBIb3N0
+aW5nIFMuTC4xFzAVBgNVBAsTDlZQTiBkZXBhcnRtZW50MSEwHwYJKoZIhvcNAQkB
+FhJzdXBwb3J0QGZvcm5leC5jb20wggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIK
+AoICAQCf/VtuA2VCOj7NpeUwFSQ2IunBEGfgsBZv2Ov2mqqgw9osb8YwcxTyIcue
+mAfsl1mMCuN2m4yGdGzye7/+smbEg+F+3Tfk6v8YJB4hMd16fzFLLYR44TQoAwt8
+g657ouygxzPwuMoSF/cuxAeFvvRXcs7eKRAwIWjSZ7pXE894j/ng/sMiTPCTZ1Hh
+D3T/hvWnBzJsgVmD6LtfIOxQSM4EGjYNnRWy9NDUaTvWV9rHRbez1uLzueciZ7iA
+FnrjsuvL7N1Cne28MW+cZk/xS68TeSZJ0UqbCBSfK47saQULDiN4YjCi+JPkWbY0
+IQETSrDbc8r6ukDYysILzWQRjSEm6hHXfqcPCZ/eyHnBXS10cm5mmBwua9OAMkHe
+0/AncxLnqM+q2zybrlVeJzxFwtZB2gixgmfIFUyYPLCAhm4tWdQsePtNId2cYK8v
+DQLeUMRrpN5mnMWzLeoHWxHMInSdjdzOjXsbrXr15S8GLSzFvN3x9zdr1739XJM9
+EV08Yg1j8D8nvm9WBLLiU2IywRai7th2THn+BR/VPBZ44JAGecgJ3tNcZ6lZ8sPz
+NGfGjp0KoMDLlOW5zpj2qbD45vfaCnGuLKP51KDQDdH1RRjzY2BcJGFQ+u6dco1U
+JpsvdGbKZsNUtLNDl4dPU9V35l0YbKogX9xvGQlnDrzx3NApuwIDAQABo0IwQDAP
+BgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUhddWW8Q1
+ix8fJJCQ5yjsPp1NUvswDQYJKoZIhvcNAQEFBQADggIBACY0cYWjEha+ymRXyMu5
+S8slpm7g6Vy0GNgHv3T1WwdHprei73WIRRDExPFAAVWH8ySioPHHJJJ5sdF1yLOU
+9aGdI52/Nszm1FGhH61ryJXdX3V7CAx6bZYMt+t087XWCMa4qeh3XtkvNIapNS2O
+A5gRS93xL2dQRrAZq6WoRBK+wfcKmfOIaiqI8cUt/cT0AN5sjqu9ETezPnSRhcqU
+3bCKPJUy9reFm46Pz2hZnxjw6j6zejLKa+piOBKwtpNbKAfOF2G3d47BL5EE/4g4
+mKoHCkZDdoaLIvA/EiYsh7LDgrDp4LLKjYiNrS5DQwi3mGdqhBIPVboRL6MFFrjq
+didhYgp7tO2XacrE6VQ/d92XaEdYBcbUPmbnEP3PD/QfQNGrHJG9UTbn4jntWJC2
+Zq3VlNcb+Hjh6x/Ng9+6v0zY5hKRfcGX6ydw4pA6rt1ybE3RxrORecQcaR+0KYYK
+hd4VnmMAEi6ETnnsEdC8aV8ApGd2jU1PL23wntH+N6M/IlkBfgi256mVuFCcIeMH
+j/pc/qT8hRXexcG2MqIMV/lHvlf97Mj6MuXGYX3cj823AlcuMJL1JMYZokj1/VdD
+EJYYKFbG911Iw6yG1bbFZMeDEoE3TzvSpBr+8I3c14l3uJc5katyJhtE7TJAJ5mR
+T88F2MgzVZDC/ewnFWRO2zsn
+        </data>
+      </dict>
+    </array>
+  </dict>
+</plist>
